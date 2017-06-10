@@ -34,11 +34,9 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/nprogress/0.2.0/nprogress.min.js"></script>
   
   
-  <script id="dsq-count-scr" src="//yelog.disqus.com/count.js" async></script>
-  
 </head>
 <div style="display: none">
-  <input class="theme_disqus_on" value="true">
+  <input class="theme_disqus_on" value="false">
   <input class="theme_duoshuo_on" value="false">
   <input class="theme_preload_comment" value="false">
   <input class="theme_duoshuo_domain" value="jaytp">
@@ -52,27 +50,15 @@
 </div>
 <div class="icon">
     
-    <a class="rss" title="rss" href="/atom.xml" target="_blank"></a>
-    
-    
-    <a class="github" title="github" href="https://github.com/yelog" target="_blank"></a>
-    
-    
-    <a class="facebook" title="facebook" href="https://www.facebook.com/faker.tops" target="_blank"></a>
     
     
     
-    <a class="linkedin" title="linkedin" href="https://www.linkedin.com/in/%E7%8E%89%E6%9D%B0-%E6%9D%A8-13a40a103/" target="_blank"></a>
     
     
     
-    <a class="reddit" title="reddit" href="https://www.reddit.com/user/yelog/" target="_blank"></a>
     
     
-    <a class="weibo" title="weibo" href="http://weibo.com/u/2307534817" target="_blank"></a>
-    
-    
-    <a class="email" title="email" href="mailto:jaytp@qq.com"></a>
+    <a class="email" title="email" href="mailto:nobleding@gmail.com"></a>
     
 </div>
 <ul>
@@ -138,8 +124,6 @@
         </span>
         
         
-        <span class="top-comment" title="跳转至评论区"><a href="#comments">评论:<span class="count-comment"></span></a></span>
-        
     </div>
     
     <div class="toc-ref">
@@ -173,11 +157,6 @@
     </div>
 </article>
 
-<p>
-    <a href="javascript:void(0)" class="dashang" onclick="dashangToggle()">赏</a>
-</p>
-
-
 <div class="article_copyright">
     <p><span>文章标题:</span>Hello World</p>
     
@@ -192,62 +171,10 @@
 
 
     
-    <section id="comments" class="disqus">
-    <style> aside.comment-bar { margin: auto 30px; }</style>
-    <div id="disqus_thread"></div>
-    <script>
-        var disqus_config = function(){
-            this.page.url = 'https://nobleding.github.io/2017/06/10/hello-world/';
-            this.page.identifier = '2017/06/10/hello-world/';
-        };
-        var loadComment = function(){
-            var d = document, s = d.createElement('script');
-            s.src = '//yelog.disqus.com/embed.js';
-            s.setAttribute('data-timestamp', +new Date());
-            (d.head || d.body).appendChild(s);
-        }
-    </script>
-    
-    <aside class="comment-bar">
-        <a href="javascript:void(0);">
-            <i class="fa fa-commenting-o animated infinite pulse"></i>
-            <i class="fa fa-spinner fa-pulse"></i>
-            <span class="count-comment"></span>
-        </a>
-    </aside>
-    <script>
-        var isLoadComments = false;
-        var $commentBar = $("#comments aside.comment-bar");
-        var load$hide = function(){
-            if(isLoadComments){
-                return;
-            }
-            isLoadComments = true;
-            if(isLoadComments )
-            $commentBar.find("a > i").toggle();
-            
-            loadComment();
-            
-            $commentBar.fadeOut(800);
-        }
-        $commentBar.click(function(){
-            load$hide();
-        })
-        $commentBar.children("a").mouseenter(function(){
-            load$hide();
-        })
-    </script>
-
-</section>
-
-<!-- Add comment count-->
-<span class="disqus-comment-count" style="display: none" data-disqus-identifier="2017/06/10/hello-world/"></span>
-<span class="disqus-comment-count" style="display: none" data-disqus-url="https://nobleding.github.io/2017/06/10/hello-world/"></span>
-    
 
     </div>
     <div class="copyright">
-        <p class="footer-entry">©2017 Yelog</p>
+        <p class="footer-entry">©2017 Nobleding</p>
 <p class="footer-entry">Buit with <a href="https://hexo.io/" target="_blank">Hexo</a> and <a href="https://github.com/yelog/hexo-theme-3-hexo" target="_blank">3-hexo</a> theme</p>
 
     </div>
