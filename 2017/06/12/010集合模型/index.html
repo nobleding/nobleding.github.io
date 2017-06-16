@@ -67,9 +67,9 @@
 <ul>
     <li class="all active">全部文章</li>
     
-    <li data-rel="读书笔记"> 读书笔记 </li>
-    
     <li data-rel="TK_model"> TK_model </li>
+    
+    <li data-rel="读书笔记"> 读书笔记 </li>
     
     <li data-rel="Read"> Read </li>
     
@@ -97,19 +97,19 @@
 <ul class="tags-list">
     
     <li class="article-tag-list-item">
-        <a href="javascript:" class="color3">思维</a>
-    </li>
-    
-    <li class="article-tag-list-item">
         <a href="javascript:" class="color5">思维模型</a>
     </li>
     
     <li class="article-tag-list-item">
-        <a href="javascript:" class="color3">古文</a>
+        <a href="javascript:" class="color3">思维</a>
     </li>
     
     <li class="article-tag-list-item">
         <a href="javascript:" class="color2">poetry</a>
+    </li>
+    
+    <li class="article-tag-list-item">
+        <a href="javascript:" class="color3">古文</a>
     </li>
     
     <li class="article-tag-list-item">
@@ -125,12 +125,12 @@
 
 <nav>
     
-    <a  class="读书笔记 "
-       href="/2017/06/15/《自控力》/"
-       data-tag="思维"
+    <a  class="TK_model "
+       href="/2017/06/12/003人类误判心理学/"
+       data-tag="思维模型"
        data-author="" >
-        <span class="post-title" title="《自控力》">《自控力》</span>
-        <span class="post-date" title="2017-06-15 22:38:15">2017/06/15</span>
+        <span class="post-title" title="003人类误判心理学">003人类误判心理学</span>
+        <span class="post-date" title="2017-06-12 10:42:50">2017/06/12</span>
     </a>
     
     <a  class="TK_model "
@@ -142,6 +142,22 @@
     </a>
     
     <a  class="TK_model "
+       href="/2017/06/12/002复利模型/"
+       data-tag="思维模型"
+       data-author="" >
+        <span class="post-title" title="002复利模型">002复利模型</span>
+        <span class="post-date" title="2017-06-12 10:31:53">2017/06/12</span>
+    </a>
+    
+    <a  class="TK_model "
+       href="/2017/06/12/005以人为本是社会/"
+       data-tag="思维模型"
+       data-author="" >
+        <span class="post-title" title="005以人为本是社会">005以人为本是社会</span>
+        <span class="post-date" title="2017-06-12 07:55:55">2017/06/12</span>
+    </a>
+    
+    <a  class="TK_model "
        href="/2017/06/12/010集合模型/"
        data-tag="思维模型"
        data-author="" >
@@ -149,12 +165,20 @@
         <span class="post-date" title="2017-06-12 10:18:42">2017/06/12</span>
     </a>
     
-    <a  class="TK_model "
-       href="/2017/06/12/002复利模型/"
-       data-tag="思维模型"
+    <a  class="读书笔记 "
+       href="/2017/06/15/《自控力》/"
+       data-tag="思维"
        data-author="" >
-        <span class="post-title" title="002复利模型">002复利模型</span>
-        <span class="post-date" title="2017-06-12 10:31:53">2017/06/12</span>
+        <span class="post-title" title="《自控力》">《自控力》</span>
+        <span class="post-date" title="2017-06-15 22:38:15">2017/06/15</span>
+    </a>
+    
+    <a  class="Read "
+       href="/2017/06/11/read-for-myself01/"
+       data-tag="poetry"
+       data-author="" >
+        <span class="post-title" title="如果">如果</span>
+        <span class="post-date" title="2017-06-11 17:34:16">2017/06/11</span>
     </a>
     
     <a  class="Read "
@@ -171,30 +195,6 @@
        data-author="" >
         <span class="post-title" title="了凡四训第二篇">了凡四训第二篇</span>
         <span class="post-date" title="2017-06-15 22:27:23">2017/06/15</span>
-    </a>
-    
-    <a  class="TK_model "
-       href="/2017/06/12/005以人为本是社会/"
-       data-tag="思维模型"
-       data-author="" >
-        <span class="post-title" title="005以人为本是社会">005以人为本是社会</span>
-        <span class="post-date" title="2017-06-12 07:55:55">2017/06/12</span>
-    </a>
-    
-    <a  class="Read "
-       href="/2017/06/11/read-for-myself01/"
-       data-tag="poetry"
-       data-author="" >
-        <span class="post-title" title="如果">如果</span>
-        <span class="post-date" title="2017-06-11 17:34:16">2017/06/11</span>
-    </a>
-    
-    <a  class="TK_model "
-       href="/2017/06/12/003人类误判心理学/"
-       data-tag="思维模型"
-       data-author="" >
-        <span class="post-title" title="003人类误判心理学">003人类误判心理学</span>
-        <span class="post-date" title="2017-06-12 10:42:50">2017/06/12</span>
     </a>
     
     <a  class="文摘 "
@@ -345,7 +345,7 @@
 <script>
     $(function () {
         $('.search').AutoComplete({
-            'data': ['#思维','#思维模型','#古文','#poetry','#李笑来','#博弈论',],
+            'data': ['#思维模型','#思维','#poetry','#古文','#李笑来','#博弈论',],
             'itemHeight': 20,
             'width': 418
         }).AutoComplete('show');
